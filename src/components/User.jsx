@@ -1,7 +1,5 @@
-import React from "react";
-
-const User = (props) => {
-  const { id, name, email, phone } = props.user;
+const User = ({ user }) => {
+  const { id, name, email, phone } = user;
 
   const handleClick = () => {
     props.onRemoveUser(name);

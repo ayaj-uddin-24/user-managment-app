@@ -1,8 +1,6 @@
-import React from "react";
 import User from "./User";
 
-const Users = (props) => {
-  const { onRemoveUser, users } = props;
+const Users = ({ onRemoveUser, users }) => {
   return (
     <div className="users">
       {users.map((user, index) => {

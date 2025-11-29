@@ -1,8 +1,49 @@
-# React + Vite
+# Users Management App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple ReactJS project that displays a list of users and allows basic searching and removal of users. The goal of this project is to practice React fundamentals such as components, props, state management, and event handling.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display a list of users
+- Search users by name or email
+- Remove a user from the list
+- Clean and simple UI
+
+## 🛠️ Technologies Used
+
+- ReactJS
+- JavaScript (ES6+)
+- CSS
+
+## 📦 Installation & Setup
+
+1. Clone the repository
+2. Install dependencies:
+   `npm install`
+3. Start the development server:
+   `npm run dev`
+
+## 📁 Folder Structure
+
+```
+src/
+ ├─ components/
+ ├─ App.jsx
+ ├─ index.css
+ └─ main.jsx
+```
+
+## 🎯 Purpose
+
+This project was created for learning and practicing basic React concepts such as:
+
+- Component-based architecture
+- State & props
+- Event handling
+- Filtering data
+
+## 📄 License
+
+This project is for learning purposes only and free to use.
+
+**- Created By Ayaj Uddin Tanif (Frontend Web Developer)**

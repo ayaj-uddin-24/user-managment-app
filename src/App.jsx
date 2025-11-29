@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import "./index.css";
 import Users from "./components/Users";
@@ -38,7 +38,7 @@ const App = () => {
 
   return (
     <div>
-      <h1 style={{ textAlign: "center" }}>Users Managment App</h1>
+      <h1 style={{ textAlign: "center" }}>Users Management App</h1>
       <Search onSearch={handleSearch} />
       {users && <Users users={filteredUsers} onRemoveUser={handleRemoveUser} />}
     </div>
