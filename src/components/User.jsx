@@ -1,5 +1,5 @@
-const User = ({ user }) => {
-  const { id, name, email, phone } = user;
+const User = (props) => {
+  const { id, name, email, phone } = props.user;
 
   const handleClick = () => {
     props.onRemoveUser(name);
